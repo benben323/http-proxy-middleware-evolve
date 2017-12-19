@@ -1,0 +1,26 @@
+{
+  "name": "http-proxy-middleware-evolve",
+  "version": "1.0.0",
+  "description": "http proxy middleware for express ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benben323/http-proxy-middleware-evolve.git"
+  },
+  "keywords": [
+    "http",
+    "proxy",
+    "middleware",
+    "for",
+    "express"
+  ],
+  "author": "benben420",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benben323/http-proxy-middleware-evolve/issues"
+  },
+  "homepage": "https://github.com/benben323/http-proxy-middleware-evolve#readme"
+}
