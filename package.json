@@ -3,24 +3,41 @@
   "version": "1.0.0",
   "description": "http proxy middleware for express ",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benben323/http-proxy-middleware-evolve.git"
+    "url": "https://github.com/benben323/http-proxy-middleware-evolve.git"
   },
   "keywords": [
     "http",
     "proxy",
     "middleware",
-    "for",
+    "nodejs",
     "express"
   ],
   "author": "benben420",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/benben323/http-proxy-middleware-evolve/issues"
   },
-  "homepage": "https://github.com/benben323/http-proxy-middleware-evolve#readme"
+  "homepage": "https://github.com/benben323/http-proxy-middleware-evolve#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.14.0",
+    "mocha": "^4.0.1",
+    "mocha-lcov-reporter": "1.3.0",
+    "opn": "^5.1.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "is-glob": "^4.0.0",
+    "lodash": "^4.17.2",
+    "micromatch": "^3.1.0"
+  }
 }
