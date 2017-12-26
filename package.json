@@ -1,6 +1,6 @@
 {
   "name": "http-proxy-middleware-evolve",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "http proxy middleware for express ",
   "main": "index.js",
   "files": [
