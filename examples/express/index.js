@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 var express = require('express')
-var proxy = require('../../index') // require('http-proxy-middleware');
+var proxy = require('../../index')(['auth']) // require('http-proxy-middleware');
 
 /**
  * Configure proxy middleware
